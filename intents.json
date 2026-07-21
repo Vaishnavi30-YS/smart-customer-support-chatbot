@@ -1,0 +1,184 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning"
+            ],
+            "responses": [
+    "Hi there! 😊 How may I assist you?",
+    "Welcome back! 👋 What can I help you with?",
+    "Hello! 😊 Please tell me your query."
+]
+        },
+
+        {
+            "tag": "refund",
+            "patterns": [
+                "refund",
+                "money back",
+                "return my money"
+            ],
+            "responses": [
+                "Sure! 😊 Refunds are processed within 5-7 working days.",
+                "Your refund request will be reviewed and processed within 5-7 working days.",
+                "No worries! Refunds usually take 5-7 working days after approval."
+            ]
+        },
+
+        {
+            "tag": "delivery",
+            "patterns": [
+                "delivery",
+                "shipping time",
+                "how long delivery takes"
+            ],
+            "responses": [
+                "Your delivery usually takes 3-5 working days.",
+                "You can expect your order within 3-5 business days.",
+                "Our delivery team will try to deliver your order as soon as possible."
+            ]
+        },
+
+        {
+            "tag": "order_tracking",
+            "patterns": [
+                "where is my order",
+                "where is my orders",
+                "track my order",
+                "track my orders",
+                "order status",
+                "delivery status"
+            ],
+            "responses": [
+                "You can track your order using your order ID. Please check your order tracking page."
+            ]
+        },
+
+        {
+            "tag": "payment",
+            "patterns": [
+                "payment",
+                "pay",
+                "payment methods",
+                "how can i pay"
+            ],
+            "responses": [
+                "We accept UPI, credit cards, debit cards and net banking.",
+                "You can complete payment using UPI, cards or online banking.",
+                "Multiple payment options are available for your convenience."
+            ]
+        },
+
+        {
+            "tag": "support",
+            "patterns": [
+                "contact",
+                "customer care",
+                "help",
+                "contact support"
+            ],
+            "responses": [
+                "You can contact our support team through email or phone."
+            ]
+        },
+
+        {
+            "tag": "return_policy",
+            "patterns": [
+                "return product",
+                "return policy",
+                "can i return",
+                "how to return"
+            ],
+            "responses": [
+                "You can return products within 30 days if they meet our return policy conditions."
+            ]
+        },
+
+        {
+            "tag": "working_hours",
+            "patterns": [
+                "working hours",
+                "when are you open",
+                "support timing",
+                "office hours"
+            ],
+            "responses": [
+                "Our customer support team is available Monday to Saturday, 9 AM to 6 PM."
+            ]
+        },
+
+        {
+            "tag": "cancellation",
+            "patterns": [
+                "cancel my order",
+                "i want to cancel",
+                "order cancellation",
+                "cancel order"
+            ],
+            "responses": [
+                "Your cancellation request has been received. Please provide your order ID for further assistance."
+            ]
+        },
+
+        {
+            "tag": "complaint",
+            "patterns": [
+                "i have a complaint",
+                "bad service",
+                "i want to complain",
+                "issue with service"
+            ],
+            "responses": [
+                "We are sorry for the inconvenience. Our support team will help you resolve this issue."
+            ]
+        },
+
+        {
+            "tag": "order_issue",
+            "patterns": [
+                "my order has a problem",
+                "wrong product received",
+                "damaged product",
+                "order issue"
+            ],
+            "responses": [
+                "We are sorry about your order issue. Please contact support with your order details."
+            ]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "thank you so much",
+                "that's helpful"
+            ],
+            "responses": [
+                "You're welcome! 😊 Happy to help you anytime."
+            ]
+        }
+        ,
+{
+    "tag": "goodbye",
+    "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "exit",
+        "quit"
+    ],
+    "responses": [
+        "Goodbye! 👋 Have a great day!",
+        "See you again! 😊 Thanks for contacting us.",
+        "Bye! 👋 Feel free to contact us anytime."
+    ]
+}
+    ]
+}
