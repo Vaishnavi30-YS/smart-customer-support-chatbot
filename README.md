@@ -1,7 +1,8 @@
 # 🤖 Smart Customer Support Chatbot
 
-A Python-based customer support chatbot developed using Flask, HTML, CSS, JavaScript, and JSON.  
-The chatbot provides interactive assistance for common customer queries like refunds, delivery, payments, and support information.
+A Python-based customer support chatbot developed using Flask, HTML, CSS, JavaScript, JSON, and SQLite.
+
+The chatbot provides interactive assistance for common customer queries like refunds, delivery, payments, and support information. It also stores chat conversations and provides a chat history dashboard.
 
 ## 🚀 Features
 
@@ -13,6 +14,9 @@ The chatbot provides interactive assistance for common customer queries like ref
 - Return policy details
 - Customer support contact
 - Working hours information
+- SQLite-based chat history storage
+- Chat history dashboard
+- Interactive web interface
 
 ## 🛠️ Tech Stack
 
@@ -22,6 +26,7 @@ The chatbot provides interactive assistance for common customer queries like ref
 - CSS
 - JavaScript
 - JSON
+- SQLite
 
 ## 📂 Project Structure
 
